@@ -27,9 +27,9 @@ So, buckle up and join me on this data-driven journey through the job market jun
 - **Visual Studio Code**: My go-to IDE for database management, executing SQL queries and others
 - **Git & GitHub**: Essential for version control and sharing my SQL scripts and analysis, ensuring collaboration and project tracking.
 # Analysis
-1) **Skill Diversity**:
+ ### **Skill Diversity**:
 - There's a high diversity in job titles, from Data Analyst to Geographic Information Systems Analyst to VP of Data Science & Research, reflecting varied roles and specializations within the field of Data Science.
-2) **Skill Insights Summary**:
+### **Skill Insights Summary**:
 - Python, SQL, and R are foundational skills for data scientists, required across the board.
 - Cloud platforms (AWS, Azure) and big data tools (Spark, Hadoop) are vital for scaling data processing workflows.
 - Machine learning frameworks (PyTorch, TensorFlow) show strong demand for AI/ML capabilities.
@@ -38,7 +38,7 @@ So, buckle up and join me on this data-driven journey through the job market jun
 
 ![Top-Paying Data Science Jobs](Plots/output_pb2.png)
 
-3) **Key Observations on In-Demand Skills**:
+### **Key Observations on In-Demand Skills**:
 
 
 - **Python and SQL are universally critical**: Both in India and globally, Python and SQL are the top two skills. Their dominance highlights that programming and database querying are essential for any data science role, regardless of region.
@@ -51,29 +51,29 @@ So, buckle up and join me on this data-driven journey through the job market jun
 
 ![](Plots/output_pb3.png)
 
-4) **Summary of Trends Globally vs India**:
-- ### Globally
+### **Summary of Trends Globally vs India**:
+- #### Globally
     - High-paying jobs are not just about traditional data science skills but increasingly about specialized frameworks, tools, and cloud platforms.
    - Project management, collaboration, and workflow tools like Asana and Airtable have emerged as essential, especially with the rise of remote work.
    - Niche programming languages and specialized cloud databases (e.g., Neo4j, DynamoDB) command premium salaries, reflecting the need for expertise in specific technical areas.
    - AI and machine learning frameworks are crucial, with frameworks like PyTorch, Theano, and Watson offering some of the highest-paying opportunities in the field.
    #### Professionals with proficiency in these skills are highly sought after and compensated accordingly, reflecting the dynamic and evolving needs of the global data science industry.
 
-- ### India 
+- #### India 
     - Full-stack development and automation testing frameworks are highly valued, showing the growing integration of data science with web development and software testing.
     - Data analytics and BI tools (e.g., Cognos, DAX, Looker) reflect the increasing need for skilled professionals who can generate insights from data and visualize it for decision-makers.
     - Cloud data warehousing tools like Snowflake and strong SQL skills are critical for handling arge-scale datasets in cloud environments.
     - AI, machine learning, and NLP tools continue to be crucial, with skills in frameworks like PyTorch, Scikit-learn, and NLTK ranking high in terms of salary
     - MLOps and DevOps skills are rising, with demand for professionals who can deploy machine learning models at scale using tools like Docker, Kubernetes, and GitLab.
     #### These trends show that companies in India are investing in professionals with specialized skills in both traditional and emerging data science technologies.
-- ### Final Thoughts
+- #### Final Thoughts
     1) Higher Valuation of Niche Tools Globally (Asana, Airtable, and Neo4j)
     2) Cloud Technologies Demand in Both Regions (AWS, Azure, and Snowflake)
     3) Machine Learning and AI Frameworks are Key in Both Markets (PyTorch, Scikit-learn, and TensorFlow)
     4) Emphasis on DevOps & MLOps in India (GitLab, Kubernetes, and Docker)
     5) Global Market Pays Premium for Collaboration and Productivity Tools (Slack, Notion, and Zoom)
 
-5) **Most Optimal Skills to Learn Globally vs India**:
+### **Most Optimal Skills to Learn Globally vs India**:
 -  **High-Demand Programming Languages**
     - **Global**: GO, Python
     - **India**: Python, R, Java, Scala
@@ -93,7 +93,7 @@ So, buckle up and join me on this data-driven journey through the job market jun
     - **Global**: Neo4j, DynamoDB, Cassandra 
     - **India**: SQL, Oracle 
 
-#### Key Insights:
+### Key Insights:
 - **Global vs India**:
     - **Global** trends focus more on advanced frameworks like Hugging Face, Theano, and niche database tools like Neo4j, with higher average salaries.
     - **In India**, traditional skills like Python, SQL, and Spark remain highly in demand, but with significantly lower salary figures compared to global standards.
