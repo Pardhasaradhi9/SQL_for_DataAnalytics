@@ -51,7 +51,49 @@ ORDER BY
     salary_year_avg DESC -- 30 jobs from my desired location
 LIMIT 10;
 
+-- vs Inida
+SELECT
+    job_id,
+    name AS company_name,
+    job_title,
+    job_location,
+    job_schedule_type,
+    salary_year_avg,
+    job_posted_date
+    
+FROM
+    job_postings_fact
+LEFT JOIN company_dim
+    ON job_postings_fact.company_id = company_dim.company_id
+WHERE
+    (job_title_short LIKE '%Data Scien%' OR
+    job_title_short LIKE '%Data Analy%') AND
+    job_country = 'India'  AND
+    salary_year_avg IS NOT NULL
+ORDER BY 
+    salary_year_avg DESC -- 30 jobs from my desired location
+LIMIT 10;
  
-  
+ -- vs Global
+SELECT
+    job_id,
+    name AS company_name,
+    job_title,
+    job_location,
+    job_schedule_type,
+    salary_year_avg,
+    job_posted_date
+    
+FROM
+    job_postings_fact
+LEFT JOIN company_dim
+    ON job_postings_fact.company_id = company_dim.company_id
+WHERE
+    (job_title_short LIKE '%Data Scien%' OR
+    job_title_short LIKE '%Data Analy%') AND
+    salary_year_avg IS NOT NULL
+ORDER BY 
+    salary_year_avg DESC -- 30 jobs from my desired location
+LIMIT 10;
 
 
